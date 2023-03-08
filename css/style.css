@@ -1,0 +1,662 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+p{
+    font-size: 14px;
+    color: #6c757d;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.headerwrap{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+
+}
+.headlist{
+    
+}
+.headlist ul {
+list-style: none;
+}
+.headlist ul li{
+    float: left;
+    margin-right: 55px;
+    font-size: 14px;
+}
+
+.headbtn{
+
+}
+.headbtn button{
+    padding: 10px 20px;
+    border-radius: 25px;
+    background: #190c39;
+    color: #d1a405;  
+    outline: none;
+    border: none;  
+}
+.headbtn button:hover{
+    background: transparent;
+    border: 1px solid #190c39;
+    color: #190c39;
+}
+/* header */
+
+/* Expert Section*/
+.ExpertSection{
+ width: 100%;
+ height: 100vh;
+}
+.ExpertSectionwrap{
+ width: 100%;
+ height: auto;
+ display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.Extexts{
+width: 50%;
+    padding-right: 85px;
+}
+.Extexts button{
+    font-size: 10px;
+    padding: 5px 8px;
+    border-radius: 25px;
+    color: #d1a405; 
+    background: #eeefd9;
+    border: none;
+    font-weight: bold;
+}
+.Extexts h2{
+  color: #190c39;
+    font-size: 42px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+
+}
+.Extexts p{
+  line-height: 20px;
+    margin-bottom: 40px;  
+}
+.Exbtnwrap button{
+       font-size: 18px;
+    padding: 10px 32px;
+    background: #190c39; 
+    color: #ffffff;
+}
+.Exbtnwrap button:hover{
+    background: #ffffff;
+    color: #190c39;
+    border: 1px solid #190c39;
+}
+.Exbtnwrap .Excontbtn{
+    background: white;
+    border: 1px solid #190c39;
+    color: #190c39;
+}
+.Exbtnwrap .Excontbtn:hover{
+    background: #190c39;
+    color: #ffffff;
+}
+.Eximg{
+width: 50%;
+
+}
+.Eximg img{width: 100%;margin-top: 50px;}
+/* Expert Section */
+
+/* Our Features */
+.Our-Features{
+  width: 100%;
+  height: 450px;
+  margin-top: 0px;
+}
+.feamaintext{
+  width: 485px;
+  text-align: center;
+  margin: 0 auto;
+}
+.feamaintext button{
+    font-size: 10px;
+    padding: 5px 8px;
+    border-radius: 25px;
+    color: #d1a405; 
+    background: #eeefd9;
+    border: none;
+    font-weight: bold;
+}
+.feamaintext h2{
+    font-size: 42px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    color: #190c39;
+}
+.feamaintext p{
+
+padding: 0px 24px;
+}
+.featcards{
+ width: 100%;
+ height: auto;
+ display: flex;
+ justify-content: space-around;
+ text-align: center;
+}
+.fcard1{padding: 18px 69px;}
+.fcard1 i{
+   font-size: 30px;
+   padding-bottom: 18px;
+}
+.fcard1 h3{
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+.fcard1 p{
+    
+}
+/* Our Features */
+
+/* agency */
+.agencySection{
+ width: 100%;
+ height: 600px;
+ margin-top: 70px;
+}
+.agenwrap{
+ width: 100%;
+ height: auto;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+.ageimg{
+ width: 60%;
+}
+.ageimg img{ 
+ width: 100%; 
+}
+.agetext{
+ width: 40%;
+ padding: 20px 46px;
+}
+.agetext button{
+    font-size: 10px;
+    padding: 5px 8px;
+    border-radius: 25px;
+    color: #d1a405; 
+    background: #eeefd9;
+    border: none;
+    font-weight: bold; 
+    margin-top: 10px;
+}
+.agetext h2{
+    font-size: 42px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    color: #190c39;
+}
+.agetext p{
+    margin-bottom: 20px; 
+}
+.agetext ul {
+    
+}
+.agetext li{
+    font-size: 14px;
+    color: rgb(206, 206, 206);
+   margin-bottom: 5px; 
+}
+
+button.agetextbtn{
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    background: #190c39;
+    border: none;
+    margin-top: 20px;
+}
+button.agetextbtn:hover{
+border: 1px solid #190c39;
+background: transparent;
+color: #190c39;
+}
+
+/* agency */
+
+/* Our Services */
+.Our-Services{
+  width: 100%;
+  height: 600px;
+  margin-bottom: 250px;
+  margin-top: 70px;
+}
+.sermanitext{
+text-align: center;
+}
+.sermanitext button{
+   font-size: 10px;
+    padding: 5px 8px;
+    border-radius: 25px;
+    color: #d1a405; 
+    background: #eeefd9;
+    border: none;
+    font-weight: bold; 
+    margin-top: 10px;
+}
+.sermanitext h2{
+  font-size: 42px;
+    margin-bottom: 30px;
+    margin-top: 12px;
+    color: #190c39;
+}
+.serviceboxwrap{
+width: 800px;
+height: auto;
+display: flex;
+margin: auto;
+}
+.servibox1{
+    width: 400px;
+    height: 180px;
+    display: flex;
+    border: 1px solid #ddd;
+    padding: 32px;
+    margin: 14px;
+}
+
+.serviboxicon i{
+    font-size: 40px;
+    margin-right: 13px;
+
+}
+.serviboxtexts{
+
+
+}
+.serviboxtexts h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+.serviboxtexts p{
+
+
+}
+/* Our Services */
+
+
+/* Testimonials */
+.TestimonialsSection{
+  width: 100%;
+  height: 600px;
+  background: #f6f6f6;
+  padding-top: 50px;
+}
+.testmaintext{
+width: 780px;
+height: auto;
+text-align: center;
+margin: auto;
+    padding-top: 40px;
+}
+.testmaintext button{
+     font-size: 10px;
+    padding: 5px 8px;
+    border-radius: 25px;
+    color: #d1a405; 
+    background: #eeefd9;
+    border: none;
+    font-weight: bold; 
+    margin-top: 10px;
+}
+.testmaintext h2{
+      font-size: 42px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    color: #190c39;
+}
+.testcardwrap{
+width: 100%;
+height: 300px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 50px;
+
+}
+.tecard1{
+width: 30%;
+height: 200px;
+border: 1px solid #ddd;
+padding: 14px;
+}
+.tecardtext {
+    margin-bottom: 10px;
+}
+.tecardtext p{
+    font-size: 19px;
+}
+.tecardimgtext{
+ width: 100%;
+ height: auto;
+ display: flex;
+}
+.tecimgs{
+  width: 80Px;
+  height: 80px;
+ 
+}
+.tecimgs img{
+    width: 100%;
+     border-radius: 50%;
+}
+.tectexts{
+padding: 17px;
+}
+.tectexts h4{
+    font-size: 18px;
+}
+.tectexts p{
+    
+}
+/* Testimonials */
+
+/* footer */
+
+.footersection{
+ width: 100%;
+ height: 400px;
+ margin-top: 100px;
+
+}
+.footWrap{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footAbout{
+ width: 40%;
+ height: auto;
+ padding-right: 95px;
+}
+.footAbout h4{
+    margin-bottom: 20px;
+}
+.footAbout p{
+
+    margin-bottom: 15px;
+
+}
+.footabicon{
+
+}
+.footabicon i{
+padding: 15px;
+}
+.footpages{
+ width: 20%;
+ height: auto;
+}
+.footpages h4{
+padding-bottom: 25px;
+color: #6c757d;
+}
+.footpages ul li{
+list-style: none;
+    line-height: 30px;
+    font-size: 14px;
+    color: #6c757d;
+}
+.footcopy {
+    text-align: center;
+    margin-top: 85px;
+}
+/* footer */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .headerwrap{
+    display: block;
+  }  
+  .logo {
+    width: 100%;
+    text-align: center;
+}
+.headlist {
+    width: 100%;
+}
+.headlist ul li {
+    float: none;
+    margin-right: 0px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+}
+.headbtn {
+    text-align: center;
+}
+.Extexts h2 {
+    color: #190c39;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.Extexts {
+        width: 100%;
+        padding-right: 0px;
+        text-align: center;
+        padding: 10px 29px;
+}
+.Exbtnwrap button {
+    font-size: 10px;
+    padding: 6px 15px;
+    background: #190c39;
+    color: #ffffff;
+}
+.ExpertSectionwrap {
+    width: 33%;
+    height: auto;
+    display: block;
+}
+.Eximg {
+    width: 50%;
+    /* text-align: center; */
+    margin: auto;
+}
+.headerwrap {
+    width: 33%;
+    height: 60px;
+
+}
+header.headerSection {
+    margin-bottom: 160px;
+}
+.Our-Features {
+    width: 33%;
+    height: 450px;
+    margin-top: 190px;
+}
+.feamaintext {
+    width: 33%;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.featcards {
+    width: 33%;
+    height: auto;
+    display: block;
+}
+.feamaintext h2 {
+    font-size: 25px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    color: #190c39;
+}
+
+.agenwrap {
+    width: 33%;
+    height: auto;
+    display: block;
+}
+.agetext {
+    width: 100%;
+    padding: 20px 46px;
+    text-align: center;
+}
+.agetext h2 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    color: #190c39;
+}
+button.agetextbtn {
+    padding: 10px 15px;
+    font-size: 9px;
+    font-weight: 400;
+    color: white;
+    background: #190c39;
+    border: none;
+    margin-top: 20px;
+}
+.ageimg {
+    width: 50%;
+    margin: auto;
+}
+.agencySection {
+    width: 100%;
+    height: 600px;
+    margin-top: 231px;
+}
+.serviceboxwrap {
+    height: auto;
+    display: block; 
+     margin: 0px;
+}
+.Our-Services {
+    width: 33%;
+    height: 600px;
+    margin-bottom: 460px;
+    margin-top: 70px;
+}
+.sermanitext {
+    text-align: left;
+        margin-left: 40px;
+}
+
+.sermanitext h2 {
+    font-size: 22px;
+    margin-bottom: 30px;
+    margin-top: 12px;
+    color: #190c39;
+}
+.servibox1 {
+    width: 42%;
+    height: 180px;
+    display: flex;
+    border: 1px solid #ddd;
+    padding: 32px;
+    margin: 14px;
+}
+.testmaintext h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    color: #190c39;
+}
+.testmaintext {
+    width: 33%;
+    height: auto;
+    text-align: center;
+    margin: 0px;
+       padding: 10px 30px;
+}
+.TestimonialsSection {
+    width: 100%;
+    height: 600px;
+    background: #f6f6f6;
+    padding-top: 170px;
+}   
+.testcardwrap {
+        width: 90%;
+    height: 300px;
+   display: block; 
+    margin-top: 50px;
+}
+.tecard1 {
+    width: 33%;
+    height: 200px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.tecardtext p {
+    font-size: 14px;
+}
+
+.footersection {
+    width: 100%;
+    height: 400px;
+    margin-top: 433px;
+    text-align: center;
+}
+.footAbout {
+    width: 33%;
+    height: auto;
+    padding-right: 0px;
+}
+
+.footpages {
+    width: 33%;
+    height: auto;
+}
+
+
+
+.footWrap {
+    width: 90%;
+    height: auto;
+     display: block; 
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+}
